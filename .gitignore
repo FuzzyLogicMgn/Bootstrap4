@@ -1,2 +1,3 @@
 node_modules
 .vcode/workspace.code-workspace
+dist

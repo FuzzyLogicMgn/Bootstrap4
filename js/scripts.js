@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#mycarousel").carousel({ interval: 2000 });
     $("#carouselButton").click(function () {
-        let btnSpan = $("#carouselButton span");
+        var btnSpan = $("#carouselButton span");
         if (btnSpan.hasClass("fa-pause")) {
             $("#mycarousel").carousel('pause');
             btnSpan.removeClass("fa-pause");
